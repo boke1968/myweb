@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,7 +11,6 @@ body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:#F2F2F2;c
 img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,input,textarea,select{font-family:inherit;font-size:inherit}
 .hidden{display:none!important}
 .fp{font-family:'Playfair Display',Georgia,serif}
-/* NAV */
 .nav{position:fixed;top:0;left:0;right:0;z-index:50;background:#fff;border-bottom:1px solid #e5e7eb;height:64px;display:flex;align-items:center}
 .nav-in{max-width:1280px;margin:0 auto;padding:0 24px;width:100%;display:flex;align-items:center;justify-content:space-between}
 .nav-logo{display:flex;align-items:center;gap:12px}
@@ -32,7 +30,6 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 @keyframes gp{0%,100%{box-shadow:0 0 0 0 rgba(197,168,128,0.4)}50%{box-shadow:0 0 0 6px rgba(197,168,128,0)}}
 .hamb{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:8px;cursor:pointer;border:none;background:none;color:#262626}
 .hamb:hover{background:#f3f4f6}
-/* MOBILE MENU */
 .mm{position:fixed;inset:0;z-index:60;background:#fff;transform:translateX(100%);transition:transform 0.3s ease}
 .mm.open{transform:translateX(0)}
 .mm-h{display:flex;align-items:center;justify-content:space-between;padding:0 16px;height:64px;border-bottom:1px solid #e5e7eb}
@@ -41,7 +38,6 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 .mm-ab{margin-top:24px;display:flex;align-items:center;justify-content:center;gap:8px;padding:12px;background:rgba(197,168,128,0.1);border:1px solid rgba(197,168,128,0.3);color:#a88a66;border-radius:12px;font-weight:600;font-size:14px;cursor:pointer;width:100%}
 .cbtn{width:40px;height:40px;display:flex;align-items:center;justify-content:center;border-radius:8px;cursor:pointer;border:none;background:none;color:#262626}
 .cbtn:hover{background:#f3f4f6}
-/* HERO */
 .hero{padding-top:64px}
 .hero-in{background:#fff;padding:80px 24px;text-align:center}
 @media(min-width:640px){.hero-in{padding:112px 24px}}
@@ -53,7 +49,6 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 .h-desc{font-size:16px;color:rgba(38,38,38,0.7);max-width:672px;margin:0 auto;line-height:1.65}
 @media(min-width:640px){.h-desc{font-size:18px}}
 .h-btns{margin-top:40px;display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
-/* BUTTONS */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:500;font-size:14px;border-radius:8px;cursor:pointer;border:none;transition:all 0.3s;line-height:1.5}
 .btn-p{padding:12px 28px;background:#1a1a1a;color:#fff}.btn-p:hover{background:#1a1a3e}
 .btn-o{padding:12px 28px;background:transparent;border:2px solid #1a1a1a;color:#1a1a1a}.btn-o:hover{background:#1a1a1a;color:#fff}
@@ -62,7 +57,6 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 .btn-d{padding:12px;background:#ef4444;color:#fff;border-radius:12px;font-weight:500;font-size:14px;cursor:pointer;border:none}.btn-d:hover{background:#dc2626}
 .btn-gh{padding:8px 16px;background:transparent;border:1px solid #e5e7eb;color:#262626;border-radius:12px;font-weight:500;font-size:14px;cursor:pointer}.btn-gh:hover{background:#f9fafb}
 .btn-f{width:100%}.btn-s{padding:8px 16px;font-size:12px}
-/* SECTIONS */
 .sec{padding:64px 24px}
 @media(min-width:640px){.sec{padding:96px 24px}}
 .sec-h{text-align:center;margin-bottom:48px}
@@ -70,11 +64,9 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 @media(min-width:640px){.sec-t{font-size:36px}}
 .sec-s{font-size:14px;color:rgba(38,38,38,0.6)}
 .gl{font-size:12px;font-weight:600;letter-spacing:5px;text-transform:uppercase;color:#C5A880;margin-bottom:16px}
-/* FILTERS */
 .fb{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:40px}
 .fbtn{padding:8px 20px;font-size:14px;font-weight:500;border-radius:9999px;border:1px solid #d1d5db;background:none;color:#262626;cursor:pointer;transition:all 0.2s}
 .fbtn.on{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
-/* CARDS */
 .ag{display:grid;grid-template-columns:1fr;gap:24px}
 @media(min-width:640px){.ag{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1024px){.ag{grid-template-columns:repeat(3,1fr)}}
@@ -89,13 +81,11 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 .acp{padding:2px 10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;border-radius:9999px;flex-shrink:0}
 .pw{background:#eff6ff;color:#2563eb}.pa{background:#f0fdf4;color:#16a34a}
 .acd{font-size:14px;color:rgba(38,38,38,0.6);line-height:1.65}
-/* PHILOSOPHY */
 .phil{background:#fff}
 .phil-in{max-width:896px;margin:0 auto;padding:80px 24px;text-align:center}
 @media(min-width:640px){.phil-in{padding:112px 24px}}
 .phil-t{font-size:16px;color:rgba(38,38,38,0.7);line-height:1.65;max-width:672px;margin:0 auto}
 @media(min-width:640px){.phil-t{font-size:18px}}
-/* CONTACT */
 .ctc{max-width:768px;margin:0 auto;padding:80px 24px}
 @media(min-width:640px){.ctc{padding:112px 24px}}
 .ctf{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:24px}
@@ -108,14 +98,12 @@ img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,inp
 .fi:focus{border-color:#C5A880;box-shadow:0 0 0 3px rgba(197,168,128,0.2)}
 .fi::placeholder{color:#9ca3af}
 textarea.fi{resize:none}
-/* FOOTER */
 .ft{background:#1a1a1a;color:#fff}
 .ft-in{max-width:1280px;margin:0 auto;padding:48px 24px;display:flex;flex-direction:column;align-items:center;gap:24px}
 @media(min-width:640px){.ft-in{flex-direction:row;justify-content:space-between}}
 .ft-l{display:flex;align-items:center;gap:12px}
 .ft-li{width:32px;height:32px;background:#C5A880;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#1a1a1a;font-size:12px;font-weight:700}
 .ft-c{font-size:14px;color:#9ca3af}
-/* MODALS */
 .mo{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;padding:16px}
 .md{position:relative;background:#fff;border-radius:16px;box-shadow:0 25px 50px rgba(0,0,0,0.15);width:100%;max-width:384px;overflow:hidden}
 .md-l{max-width:512px;max-height:90vh;overflow-y:auto}
@@ -127,7 +115,6 @@ textarea.fi{resize:none}
 .ma{display:flex;gap:12px;margin-top:24px}
 .ms{position:sticky;top:0;background:#fff;border-bottom:1px solid #f3f4f6;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;z-index:5;border-radius:16px 16px 0 0}
 .mf{padding:24px;display:flex;flex-direction:column;gap:16px}
-/* ADMIN */
 .ap{position:fixed;inset:0;z-index:80;background:#F2F2F2;display:flex;flex-direction:column}
 .ah{height:56px;background:#fff;border-bottom:1px solid #e5e7eb;display:flex;align-items:center;justify-content:space-between;padding:0 16px;flex-shrink:0}
 .ahl{display:flex;align-items:center;gap:12px}
@@ -146,13 +133,12 @@ textarea.fi{resize:none}
 @media(min-width:640px){.atb{display:none}}
 .ata{flex:1;padding:12px;font-size:14px;font-weight:500;text-align:center;cursor:pointer;border:none;background:none;color:#262626;border-bottom:2px solid transparent;transition:all 0.2s}
 .ata.on{color:#C5A880;border-bottom-color:#C5A880}
-.aco{flex:1;overflow-y:auto;padding:16px}
+.aco{flex:1;overflow-y-auto;padding:16px}
 @media(min-width:640px){.aco{padding:32px}}
 .act2{font-size:20px;font-weight:700;color:#1a1a1a;margin-bottom:4px}
 .acd2{font-size:14px;color:rgba(38,38,38,0.5);margin-bottom:32px}
 .af{margin-bottom:24px}
 .afl{display:block;font-size:12px;font-weight:600;color:rgba(38,38,38,0.7);margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
-/* ADMIN APPS */
 .aah{display:flex;flex-direction:column;gap:16px;margin-bottom:32px}
 @media(min-width:640px){.aah{flex-direction:row;align-items:center;justify-content:space-between}}
 .aac{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:16px}
@@ -167,7 +153,6 @@ textarea.fi{resize:none}
 .ib{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:8px;border:1px solid #e5e7eb;cursor:pointer;background:none;transition:all 0.2s}
 .ib:hover{background:rgba(197,168,128,0.1);border-color:rgba(197,168,128,0.3)}
 .ib.db:hover{background:#fef2f2;border-color:#fecaca}
-/* UPLOAD */
 .ua{border:2px dashed #d1d5db;border-radius:12px;padding:24px;text-align:center;cursor:pointer;transition:border-color 0.2s}
 .ua:hover{border-color:rgba(197,168,128,0.5)}
 .uimg{max-width:100%;max-height:250px;object-fit:contain;border-radius:8px;border:1px solid #e5e7eb;margin:0 auto}
@@ -181,28 +166,32 @@ textarea.fi{resize:none}
 .sclk input{width:16px;height:16px;border-radius:4px;accent-color:#C5A880}
 .sclk span{font-size:12px;color:rgba(38,38,38,0.6)}
 .sco{font-size:10px;color:rgba(38,38,38,0.3);margin-top:8px}
-/* EMPTY */
 .emp{text-align:center;padding:64px 16px}
 .emp svg{width:64px;height:64px;color:#d1d5db;margin:0 auto 12px}
 .emp p{font-size:18px;color:rgba(38,38,38,0.5)}
 .emp small{font-size:14px;color:rgba(38,38,38,0.3);display:block;margin-top:4px}
-/* TOAST */
 .toast{position:fixed;bottom:24px;right:24px;z-index:100;background:#1a1a1a;color:#fff;padding:14px 20px;border-radius:12px;box-shadow:0 25px 50px rgba(0,0,0,0.15);display:flex;align-items:center;gap:12px;transform:translateY(100px);opacity:0;transition:all 0.4s cubic-bezier(0.16,1,0.3,1)}
 .toast.show{transform:translateY(0);opacity:1}
 .ti{width:32px;height:32px;background:rgba(34,197,94,0.2);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .tt{font-size:14px;font-weight:500}.tm{font-size:12px;color:#9ca3af}
+.loading-ov{position:fixed;inset:0;z-index:200;background:rgba(242,242,242,0.85);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px}
+.ld-spin{width:40px;height:40px;border:3px solid #e5e7eb;border-top-color:#C5A880;border-radius:50%;animation:ldsp 0.8s linear infinite}
+@keyframes ldsp{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
 
+<!-- LOADING -->
+<div id="loadingScreen" class="loading-ov"><div class="ld-spin"></div><p style="font-size:14px;color:rgba(38,38,38,0.5)">Cargando...</p></div>
+
 <!-- ===== PÁGINA PRINCIPAL ===== -->
-<div id="mainPage">
+<div id="mainPage" class="hidden">
 
 <nav class="nav"><div class="nav-in">
 <a href="#" class="nav-logo"><div class="nav-icon">W</div><div><div class="nav-txt">W.M.S</div><div class="nav-sub">Ware Málaga Studio</div></div></a>
 <div class="nav-links"><a href="#inicio" class="nav-a">Inicio</a><a href="#apps" class="nav-a">Windows</a><a href="#apps" class="nav-a">Android</a><a href="#filosofia" class="nav-a">Filosofía</a><button onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})" class="nav-btn-p">Contacto</button></div>
 <div class="nav-right">
-<button onclick="showAdminLogin()" class="abtn" title="Administración"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Admin</span></button>
+<button onclick="showAdminLogin()" class="abtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><span>Admin</span></button>
 <button id="mobileMenuBtn" class="hamb"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
 </div></div></nav>
 
@@ -220,7 +209,7 @@ textarea.fi{resize:none}
 <div class="sec-h"><h2 class="sec-t fp">Nuestras Aplicaciones</h2><p class="sec-s">Conoce nuestro portafolio de software</p></div>
 <div class="fb"><button onclick="filterApps('all')" class="fbtn on" data-f="all">Todas</button><button onclick="filterApps('Windows')" class="fbtn" data-f="Windows">Windows</button><button onclick="filterApps('Android')" class="fbtn" data-f="Android">Android</button></div>
 <div id="appsGrid" class="ag"></div>
-<div id="appsEmpty" class="emp hidden"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><p>Aún no hay aplicaciones</p><small>Se añadirán desde el panel de administración</small></div>
+<div id="appsEmpty" class="emp hidden"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><p>Aún no hay aplicaciones</p><small>Se añadirán desde el panel de administración</small></div>
 </div></section>
 
 <section id="filosofia" class="phil"><div class="phil-in">
@@ -251,39 +240,39 @@ textarea.fi{resize:none}
 <div id="adminLoginModal" class="mo hidden"><div class="md">
 <button onclick="hideAdminLogin()" class="mc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
 <div class="mb" style="text-align:center">
-<div class="mi" style="background:#1a1a1a"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
-<h3 class="mt">Panel de Administración</h3><p class="mde">Introduce la contraseña para acceder</p>
+<div class="mi" style="background:#1a1a1a"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+<h3 class="mt">Panel de Administración</h3><p class="mde">Introduce la contraseña</p>
 <form id="loginForm"><input type="password" id="loginPass" required placeholder="Contraseña" class="fi" style="text-align:center;letter-spacing:2px;margin-bottom:4px"><p id="loginError" class="hidden" style="font-size:12px;color:#ef4444;margin-bottom:4px">Contraseña incorrecta</p><button type="submit" class="btn btn-p btn-f" style="margin-top:8px">Entrar</button></form>
 </div></div></div>
 
 <!-- ===== ADMIN PANEL ===== -->
 <div id="adminPanel" class="ap hidden">
-<div class="ah"><div class="ahl"><div class="ahli">W</div><span class="aht">Administración W.M.S</span></div><div class="ahr"><button onclick="exitAdmin()" class="ahb"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg><span>Volver al sitio</span></button><button onclick="logoutAdmin()" class="ahb dg"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg><span>Cerrar sesión</span></button></div></div>
+<div class="ah"><div class="ahl"><div class="ahli">W</div><span class="aht">Administración W.M.S</span></div><div class="ahr"><button onclick="exitAdmin()" class="ahb"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg><span>Volver</span></button><button onclick="logoutAdmin()" class="ahb dg"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg><span>Salir</span></button></div></div>
 <div class="abody">
-<div class="asb"><button onclick="showTab('content')" class="asl on" data-t="content"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg> Contenido</button><button onclick="showTab('apps')" class="asl" data-t="apps"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Aplicaciones</button></div>
+<div class="asb"><button onclick="showTab('content')" class="asl on" data-t="content"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg> Contenido</button><button onclick="showTab('apps')" class="asl" data-t="apps"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> Aplicaciones</button></div>
 <div class="atb"><button onclick="showTab('content')" class="ata on" data-t="content">Contenido</button><button onclick="showTab('apps')" class="ata" data-t="apps">Aplicaciones</button></div>
 <div class="aco">
-<div id="tabContent"><h2 class="act2">Editar Contenido de la Página</h2><p class="acd2">Modifica los textos que aparecen en tu web</p><div class="af"><label class="afl">Subtítulo (texto dorado)</label><input type="text" id="editSubtitle" class="fi"></div><div class="af"><label class="afl">Título principal</label><input type="text" id="editTitle" class="fi"></div><div class="af"><label class="afl">Descripción</label><textarea id="editDesc" rows="3" class="fi"></textarea></div><div class="af"><label class="afl">Texto de Filosofía</label><textarea id="editPhilosophy" rows="4" class="fi"></textarea></div><button onclick="saveContent()" class="btn btn-p"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg> Guardar Cambios</button></div>
-<div id="tabApps" class="hidden"><div class="aah"><div><h2 class="act2">Gestionar Aplicaciones</h2><p class="acd2" style="margin-bottom:0">Añade, edita o elimina tus apps</p></div><button onclick="openAppForm()" class="btn btn-g"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> Añadir App</button></div><div id="adminAppsList" style="display:flex;flex-direction:column;gap:16px"></div><div id="adminAppsEmpty" class="emp hidden"><svg viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="width:48px;height:48px;margin:0 auto 12px"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><p style="font-size:14px">No hay aplicaciones aún</p></div></div>
+<div id="tabContent"><h2 class="act2">Editar Contenido</h2><p class="acd2">Modifica los textos de tu web</p><div class="af"><label class="afl">Subtítulo (texto dorado)</label><input type="text" id="editSubtitle" class="fi"></div><div class="af"><label class="afl">Título principal</label><input type="text" id="editTitle" class="fi"></div><div class="af"><label class="afl">Descripción</label><textarea id="editDesc" rows="3" class="fi"></textarea></div><div class="af"><label class="afl">Texto de Filosofía</label><textarea id="editPhilosophy" rows="4" class="fi"></textarea></div><button onclick="saveContent()" class="btn btn-p"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg> Guardar Cambios</button></div>
+<div id="tabApps" class="hidden"><div class="aah"><div><h2 class="act2">Gestionar Aplicaciones</h2><p class="acd2" style="margin-bottom:0">Añade, edita o elimina</p></div><button onclick="openAppForm()" class="btn btn-g"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg> Añadir App</button></div><div id="adminAppsList" style="display:flex;flex-direction:column;gap:16px"></div><div id="adminAppsEmpty" class="emp hidden"><svg viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1" style="width:48px;height:48px;margin:0 auto 12px"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg><p style="font-size:14px">No hay aplicaciones aún</p></div></div>
 </div></div></div>
 
 <!-- ===== APP FORM ===== -->
 <div id="appFormModal" class="mo hidden"><div class="md md-l">
-<div class="ms"><h3 id="appFormTitle" style="font-size:18px;font-weight:700;color:#1a1a1a">Nueva Aplicación</h3><button onclick="closeAppForm()" class="mc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
+<div class="ms"><h3 id="appFormTitle" style="font-size:18px;font-weight:700">Nueva Aplicación</h3><button onclick="closeAppForm()" class="mc"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
 <form id="appForm" class="mf">
 <input type="hidden" id="appEditId" value="">
 <div><label class="afl">Nombre de la App</label><input type="text" id="appName" required placeholder="Ej: Mi Aplicación" class="fi"></div>
-<div><label class="afl">Plataforma</label><select id="appPlatform" class="fi" style="appearance:none;-webkit-appearance:none"><option value="Windows">Windows</option><option value="Android">Android</option></select></div>
-<div><label class="afl">Descripción</label><textarea id="appDesc" rows="3" required placeholder="Describe brevemente la aplicación..." class="fi"></textarea></div>
+<div><label class="afl">Plataforma</label><select id="appPlatform" class="fi" style="appearance:none"><option value="Windows">Windows</option><option value="Android">Android</option></select></div>
+<div><label class="afl">Descripción</label><textarea id="appDesc" rows="3" required placeholder="Describe la aplicación..." class="fi"></textarea></div>
 <div><label class="afl">Imagen</label>
-<div class="ua" onclick="document.getElementById('appImageInput').click()">
+<div id="appImageArea" class="ua" onclick="document.getElementById('appImageInput').click()">
 <div id="appImagePreview" class="hidden" style="margin-bottom:12px"></div>
-<div id="appImagePlaceholder"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display:block;margin:0 auto"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg><p style="font-size:14px;color:rgba(38,38,38,0.4);margin-top:8px">Haz clic para subir una imagen</p><small style="font-size:12px;color:rgba(38,38,38,0.25)">JPG, PNG — Máximo 5MB</small></div>
+<div id="appImagePlaceholder"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1.5" style="display:block;margin:0 auto"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg><p style="font-size:14px;color:rgba(38,38,38,0.4);margin-top:8px">Haz clic para subir una imagen</p><small style="font-size:12px;color:rgba(38,38,38,0.25)">JPG, PNG — Máximo 5MB</small></div>
 <input type="file" id="appImageInput" accept="image/*" style="display:none" onchange="previewAppImage(event)">
 </div>
 <button type="button" id="removeImgBtn" onclick="removeAppImage()" class="rimg hidden">Eliminar imagen</button>
 <div id="imgSizeControls" class="sc hidden">
-<p class="scl">Ajustar tamaño de la imagen</p>
+<p class="scl">Ajustar tamaño</p>
 <div class="scr">
 <div class="scf"><label>Ancho (px)</label><input type="number" id="imgWidth" min="50" max="2000" class="sci" oninput="onWidthChange()"></div>
 <div class="scf"><label>Alto (px)</label><input type="number" id="imgHeight" min="50" max="2000" class="sci" oninput="onHeightChange()"></div>
@@ -291,64 +280,97 @@ textarea.fi{resize:none}
 <button type="button" onclick="applyImageSize()" class="btn btn-p btn-s">Aplicar</button>
 </div><p id="imgOrigSize" class="sco"></p>
 </div></div>
-<div style="display:flex;gap:12px;padding-top:8px"><button type="button" onclick="closeAppForm()" class="btn btn-gh" style="flex:1">Cancelar</button><button type="submit" class="btn btn-p" style="flex:1">Guardar App</button></div>
+<div style="display:flex;gap:12px;padding-top:8px"><button type="button" onclick="closeAppForm()" class="btn btn-gh" style="flex:1">Cancelar</button><button type="submit" id="appFormSubmit" class="btn btn-p" style="flex:1">Guardar App</button></div>
 </form></div></div>
 
 <!-- ===== DELETE ===== -->
 <div id="deleteModal" class="mo hidden"><div class="md" style="text-align:center">
 <div class="mb">
-<div class="mi" style="background:#fef2f2"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+<div class="mi" style="background:#fef2f2"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
 <h3 class="mt">¿Eliminar aplicación?</h3>
 <p id="deleteAppName" style="font-size:14px;color:rgba(38,38,38,0.6);margin-bottom:24px"></p>
 <div class="ma"><button onclick="hideDeleteModal()" class="btn btn-gh" style="flex:1">Cancelar</button><button id="confirmDeleteBtn" class="btn-d" style="flex:1">Eliminar</button></div>
 </div></div></div>
 
 <!-- ===== TOAST ===== -->
-<div id="toast" class="toast"><div class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><div><div id="toastTitle" class="tt">Guardado</div><div id="toastMsg" class="tm">Cambios guardados</div></div></div>
+<div id="toast" class="toast"><div class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div><div><div id="toastTitle" class="tt">Guardado</div><div id="toastMsg" class="tm">OK</div></div></div>
 
 <script>
 /* CONTRASEÑA CODIFICADA */
 var _k=[106,104,116,104,115,108,118,117,107,108,116,104,115,104,110,104];
 var ADMIN_PASS=(function(a){return a.map(function(c){return String.fromCharCode(c-7)}).join('')})(_k);
 
-/* DATOS POR DEFECTO */
-var DEFAULT_DATA={
-hero:{subtitle:'Desarrollo de Software con I.A',title:'Aplicaciones para Windows y Android',desc:'Creamos soluciones de software inteligentes y a medida, potenciadas por inteligencia artificial. De Málaga para el mundo.'},
-philosophy:'No solo escribimos código. Diseñamos experiencias que transforman la forma en que trabajas. Cada proyecto es único, cada solución está pensada para durar, y cada línea de código lleva nuestra firma de calidad.',
-apps:[]};
+var currentFilter='all',tempImgUrl=null,origImg=null,origW=0,origH=0,imgR=1,savingApp=false;
 
-var isAdmin=false,currentFilter='all',tempImageData=null,origImg=null,origW=0,origH=0,imgR=1;
-
-function getData(){try{var d=localStorage.getItem('wms_data');return d?JSON.parse(d):JSON.parse(JSON.stringify(DEFAULT_DATA))}catch(e){return JSON.parse(JSON.stringify(DEFAULT_DATA))}}
-function saveData(d){try{localStorage.setItem('wms_data',JSON.stringify(d))}catch(e){}}
-function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
-
-/* RENDER PÁGINA */
-function renderPage(){
-var d=getData();
-document.getElementById('heroSubtitle').textContent=d.hero.subtitle;
-document.getElementById('heroTitle').textContent=d.hero.title;
-document.getElementById('heroDesc').textContent=d.hero.desc;
-document.getElementById('philosophyText').textContent=d.philosophy;
-renderApps();
+/* API: LEER DATOS DEL SERVIDOR */
+async function getData(){
+    try{
+        var r=await fetch('api.php?accion=leer');
+        if(!r.ok)throw 0;
+        return await r.json();
+    }catch(e){
+        return {hero:{subtitle:'Desarrollo de Software con I.A',title:'Aplicaciones para Windows y Android',desc:'Creamos soluciones de software inteligentes y a medida, potenciadas por inteligencia artificial. De Málaga para el mundo.'},philosophy:'No solo escribimos código. Diseñamos experiencias que transforman la forma en que trabajas.',apps:[]};
+    }
 }
 
-function renderApps(){
-var d=getData(),grid=document.getElementById('appsGrid'),empty=document.getElementById('appsEmpty');
-var f=d.apps;
-if(currentFilter!=='all')f=d.apps.filter(function(a){return a.platform===currentFilter});
-if(!f.length){grid.innerHTML='';empty.className='emp'}else{
-empty.className='emp hidden';
-grid.innerHTML=f.map(function(a){
-return '<div class="ac"><div class="aci">'+(a.image?'<img src="'+a.image+'" alt="'+esc(a.name)+'">':'<div style="display:flex;flex-direction:column;align-items:center;color:#d1d5db"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg><span style="font-size:12px;margin-top:4px">Sin imagen</span></div>')+'</div><div class="acb"><div class="act"><h3 class="acn">'+esc(a.name)+'</h3><span class="acp '+(a.platform==='Windows'?'pw':'pa')+'">'+a.platform+'</span></div><p class="acd">'+esc(a.desc)+'</p></div></div>'
-}).join('')}
+/* API: GUARDAR DATOS EN SERVIDOR */
+async function saveData(d){
+    await fetch('api.php?accion=guardar',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});
+}
+
+/* API: SUBIR IMAGEN AL SERVIDOR */
+async function subirImagen(file){
+    var fd=new FormData();fd.append('imagen',file);
+    var r=await fetch('api.php?accion=subir',{method:'POST',body:fd});
+    var d=await r.json();
+    if(d.error)throw new Error(d.error);
+    return d.url;
+}
+
+/* API: SUBIR IMAGEN DESDE CANVAS */
+async function subirCanvas(canvas){
+    return new Promise(function(resolve,reject){
+        canvas.toBlob(async function(blob){
+            if(!blob){reject('Error');return}
+            try{var url=await subirImagen(blob);resolve(url)}catch(e){reject(e)}
+        },'image/jpeg',0.85);
+    });
+}
+
+/* API: BORRAR IMAGEN DEL SERVIDOR */
+async function borrarImagen(url){
+    if(!url||url.indexOf('imagenes/')!==0)return;
+    try{await fetch('api.php?accion=borrar',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({archivo:url})})}catch(e){}
+}
+
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
+
+/* RENDER */
+function renderPage(data){
+    document.getElementById('heroSubtitle').textContent=data.hero.subtitle;
+    document.getElementById('heroTitle').textContent=data.hero.title;
+    document.getElementById('heroDesc').textContent=data.hero.desc;
+    document.getElementById('philosophyText').textContent=data.philosophy;
+    renderApps(data);
+}
+
+function renderApps(data){
+    var grid=document.getElementById('appsGrid'),empty=document.getElementById('appsEmpty');
+    var f=data.apps;
+    if(currentFilter!=='all')f=data.apps.filter(function(a){return a.platform===currentFilter});
+    if(!f.length){grid.innerHTML='';empty.className='emp'}else{
+        empty.className='emp hidden';
+        grid.innerHTML=f.map(function(a){
+            return '<div class="ac"><div class="aci">'+(a.image?'<img src="'+a.image+'" alt="'+esc(a.name)+'">':'<div style="display:flex;flex-direction:column;align-items:center;color:#d1d5db"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg><span style="font-size:12px;margin-top:4px">Sin imagen</span></div>')+'</div><div class="acb"><div class="act"><h3 class="acn">'+esc(a.name)+'</h3><span class="acp '+(a.platform==='Windows'?'pw':'pa')+'">'+a.platform+'</span></div><p class="acd">'+esc(a.desc)+'</p></div></div>'
+        }).join('');
+    }
 }
 
 function filterApps(f){
-currentFilter=f;
-var btns=document.querySelectorAll('.fbtn');
-for(var i=0;i<btns.length;i++){if(btns[i].getAttribute('data-f')===f)btns[i].className='fbtn on';else btns[i].className='fbtn'}
-renderApps();
+    currentFilter=f;
+    var btns=document.querySelectorAll('.fbtn');
+    for(var i=0;i<btns.length;i++){btns[i].className=btns[i].getAttribute('data-f')===f?'fbtn on':'fbtn'}
+    getData().then(renderApps);
 }
 
 /* MENÚ MÓVIL */
@@ -356,177 +378,214 @@ document.getElementById('mobileMenuBtn').addEventListener('click',function(){doc
 document.getElementById('mobileMenuClose').addEventListener('click',closeMM);
 function closeMM(){document.getElementById('mobileMenu').classList.remove('open');document.body.style.overflow=''}
 
-/* LOGIN ADMIN */
+/* LOGIN */
 function showAdminLogin(){document.getElementById('adminLoginModal').className='mo';document.getElementById('loginPass').value='';document.getElementById('loginError').className='hidden';setTimeout(function(){document.getElementById('loginPass').focus()},100)}
 function hideAdminLogin(){document.getElementById('adminLoginModal').className='mo hidden'}
 document.getElementById('loginForm').addEventListener('submit',function(e){
-e.preventDefault();
-if(document.getElementById('loginPass').value===ADMIN_PASS){
-isAdmin=true;hideAdminLogin();openAdmin();
-}else{
-document.getElementById('loginError').className='';document.getElementById('loginPass').value='';document.getElementById('loginPass').focus();
-}
+    e.preventDefault();
+    if(document.getElementById('loginPass').value===ADMIN_PASS){isAdmin=true;hideAdminLogin();openAdmin()}
+    else{document.getElementById('loginError').className='';document.getElementById('loginPass').value='';document.getElementById('loginPass').focus()}
 });
 
-/* PANEL ADMIN */
-function openAdmin(){
-document.getElementById('mainPage').style.display='none';
-document.getElementById('adminPanel').className='ap';
-document.body.style.overflow='hidden';
-loadContentForm();renderAdminApps();showTab('content');
+/* ADMIN */
+var isAdmin=false;
+async function openAdmin(){
+    document.getElementById('mainPage').style.display='none';
+    document.getElementById('adminPanel').className='ap';
+    document.body.style.overflow='hidden';
+    var d=await getData();
+    document.getElementById('editSubtitle').value=d.hero.subtitle;
+    document.getElementById('editTitle').value=d.hero.title;
+    document.getElementById('editDesc').value=d.hero.desc;
+    document.getElementById('editPhilosophy').value=d.philosophy;
+    renderAdminApps(d);showTab('content');
 }
-function exitAdmin(){
-document.getElementById('adminPanel').className='ap hidden';
-document.getElementById('mainPage').style.display='block';
-document.body.style.overflow='';renderPage();
-}
+function exitAdmin(){document.getElementById('adminPanel').className='ap hidden';document.getElementById('mainPage').style.display='block';document.body.style.overflow='';getData().then(function(d){renderPage(d)})}
 function logoutAdmin(){isAdmin=false;exitAdmin()}
 
 function showTab(t){
-var tc=document.getElementById('tabContent'),ta=document.getElementById('tabApps');
-if(t==='content'){tc.className='';ta.className='hidden'}else{tc.className='hidden';ta.className=''}
-var sl=document.querySelectorAll('.asl'),at=document.querySelectorAll('.ata');
-for(var i=0;i<sl.length;i++){if(sl[i].getAttribute('data-t')===t)sl[i].classList.add('on');else sl[i].classList.remove('on')}
-for(var i=0;i<at.length;i++){if(at[i].getAttribute('data-t')===t)at[i].classList.add('on');else at[i].classList.remove('on')}
-if(t==='apps')renderAdminApps();
+    document.getElementById('tabContent').className=t==='content'?'':'hidden';
+    document.getElementById('tabApps').className=t==='apps'?'':'hidden';
+    document.querySelectorAll('.asl').forEach(function(l){l.className=l.getAttribute('data-t')===t?'asl on':'asl'});
+    document.querySelectorAll('.ata').forEach(function(l){l.className=l.getAttribute('data-t')===t?'ata on':'ata'});
+    if(t==='apps')getData().then(renderAdminApps);
 }
 
-function loadContentForm(){
-var d=getData();
-document.getElementById('editSubtitle').value=d.hero.subtitle;
-document.getElementById('editTitle').value=d.hero.title;
-document.getElementById('editDesc').value=d.hero.desc;
-document.getElementById('editPhilosophy').value=d.philosophy;
-}
-function saveContent(){
-var d=getData();
-d.hero.subtitle=document.getElementById('editSubtitle').value;
-d.hero.title=document.getElementById('editTitle').value;
-d.hero.desc=document.getElementById('editDesc').value;
-d.philosophy=document.getElementById('editPhilosophy').value;
-saveData(d);showToast('Guardado','Contenido actualizado correctamente');
+async function saveContent(){
+    var d=await getData();
+    d.hero.subtitle=document.getElementById('editSubtitle').value;
+    d.hero.title=document.getElementById('editTitle').value;
+    d.hero.desc=document.getElementById('editDesc').value;
+    d.philosophy=document.getElementById('editPhilosophy').value;
+    await saveData(d);showToast('Guardado','Contenido actualizado');
 }
 
 /* ADMIN APPS LIST */
-function renderAdminApps(){
-var d=getData(),list=document.getElementById('adminAppsList'),empty=document.getElementById('adminAppsEmpty');
-if(!d.apps.length){list.innerHTML='';empty.className='emp'}else{
-empty.className='emp hidden';
-list.innerHTML=d.apps.map(function(a,i){
-return '<div class="aac"><div class="aai">'+(a.image?'<img src="'+a.image+'" alt="">':'<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="8.5" y1="8.5" x2="15.5" y2="8.5"/><line x1="8.5" y1="12" x2="15.5" y2="12"/></svg>')+'</div><div class="aai2"><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><h4 class="aai3">'+esc(a.name)+'</h4><span class="acp '+(a.platform==='Windows'?'pw':'pa')+'">'+a.platform+'</span></div><p class="aai4">'+esc(a.desc)+'</p></div><div class="aai5"><button onclick="editApp('+i+')" class="ib" title="Editar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#262626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button><button onclick="confirmDelete('+i+')" class="ib db" title="Eliminar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button></div></div>'
-}).join('')}
+async function renderAdminApps(data){
+    if(!data)data=await getData();
+    var list=document.getElementById('adminAppsList'),empty=document.getElementById('adminAppsEmpty');
+    if(!data.apps.length){list.innerHTML='';empty.className='emp'}else{
+        empty.className='emp hidden';
+        list.innerHTML=data.apps.map(function(a,i){
+            return '<div class="aac"><div class="aai">'+(a.image?'<img src="'+a.image+'" alt="">':'<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>')+'</div><div class="aai2"><div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><h4 class="aai3">'+esc(a.name)+'</h4><span class="acp '+(a.platform==='Windows'?'pw':'pa')+'">'+a.platform+'</span></div><p class="aai4">'+esc(a.desc)+'</p></div><div class="aai5"><button onclick="editApp('+i+')" class="ib" title="Editar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#262626" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button><button onclick="confirmDelete('+i+')" class="ib db" title="Eliminar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button></div></div>'
+        }).join('');
+    }
 }
 
 /* APP FORM */
-function openAppForm(idx){
-document.getElementById('appFormModal').className='mo';
-document.getElementById('appForm').reset();
-document.getElementById('appEditId').value='';
-tempImageData=null;origImg=null;
-document.getElementById('appImagePreview').innerHTML='';
-document.getElementById('appImagePreview').className='hidden';
-document.getElementById('appImagePlaceholder').className='';
-document.getElementById('removeImgBtn').className='rimg hidden';
-document.getElementById('imgSizeControls').className='sc hidden';
-document.getElementById('appFormTitle').textContent='Nueva Aplicación';
-if(idx!==undefined){
-var d=getData(),a=d.apps[idx];
-document.getElementById('appFormTitle').textContent='Editar Aplicación';
-document.getElementById('appEditId').value=idx;
-document.getElementById('appName').value=a.name;
-document.getElementById('appPlatform').value=a.platform;
-document.getElementById('appDesc').value=a.desc;
-if(a.image){
-tempImageData=a.image;
-document.getElementById('appImagePreview').innerHTML='<img src="'+a.image+'" class="uimg" alt="">';
-document.getElementById('appImagePreview').className='';
-document.getElementById('appImagePlaceholder').className='hidden';
-document.getElementById('removeImgBtn').className='rimg';
-var tmp=new Image();tmp.onload=function(){origImg=tmp;origW=tmp.naturalWidth;origH=tmp.naturalHeight;imgR=origW/origH;showSizeCtrl()};tmp.src=a.image;
+async function openAppForm(idx){
+    document.getElementById('appFormModal').className='mo';
+    document.getElementById('appForm').reset();
+    document.getElementById('appEditId').value='';
+    tempImgUrl=null;origImg=null;
+    document.getElementById('appImagePreview').innerHTML='';
+    document.getElementById('appImagePreview').className='hidden';
+    document.getElementById('appImagePlaceholder').className='';
+    document.getElementById('removeImgBtn').className='rimg hidden';
+    document.getElementById('imgSizeControls').className='sc hidden';
+    document.getElementById('appImageArea').style.pointerEvents='auto';
+    document.getElementById('appFormSubmit').disabled=false;
+    document.getElementById('appFormTitle').textContent='Nueva Aplicación';
+    if(idx!==undefined){
+        var d=await getData(),a=d.apps[idx];
+        document.getElementById('appFormTitle').textContent='Editar Aplicación';
+        document.getElementById('appEditId').value=idx;
+        document.getElementById('appName').value=a.name;
+        document.getElementById('appPlatform').value=a.platform;
+        document.getElementById('appDesc').value=a.desc;
+        if(a.image){
+            tempImgUrl=a.image;
+            document.getElementById('appImagePreview').innerHTML='<img src="'+a.image+'" class="uimg" alt="">';
+            document.getElementById('appImagePreview').className='';
+            document.getElementById('appImagePlaceholder').className='hidden';
+            document.getElementById('removeImgBtn').className='rimg';
+            var tmp=new Image();tmp.onload=function(){origImg=tmp;origW=tmp.naturalWidth;origH=tmp.naturalHeight;imgR=origW/origH;showSizeCtrl()};tmp.src=a.image;
+        }
+    }
 }
-}
-}
-function closeAppForm(){document.getElementById('appFormModal').className='mo hidden';tempImageData=null;origImg=null}
+function closeAppForm(){document.getElementById('appFormModal').className='mo hidden';tempImgUrl=null;origImg=null}
 function editApp(i){openAppForm(i)}
 
 /* IMAGEN */
 function previewAppImage(e){
-var f=e.target.files[0];if(!f)return;
-if(f.size>5*1024*1024){alert('Máximo 5MB');e.target.value='';return}
-var r=new FileReader();
-r.onload=function(ev){
-var img=new Image();img.onload=function(){
-origImg=img;origW=img.naturalWidth;origH=img.naturalHeight;imgR=origW/origH;
-var c=document.createElement('canvas'),mw=800,h=img.height;
-if(img.width>mw){h=img.height*(mw/img.width)}c.width=mw;c.height=h;
-c.getContext('2d').drawImage(img,0,0,mw,h);
-tempImageData=c.toDataURL('image/jpeg',0.85);
-document.getElementById('appImagePreview').innerHTML='<img src="'+tempImageData+'" class="uimg" alt="">';
-document.getElementById('appImagePreview').className='';
-document.getElementById('appImagePlaceholder').className='hidden';
-document.getElementById('removeImgBtn').className='rimg';
-showSizeCtrl();
-};img.src=ev.target.result};
-r.readAsDataURL(f);
+    var f=e.target.files[0];if(!f)return;
+    if(f.size>5*1024*1024){alert('Máximo 5MB');e.target.value='';return}
+    var img=new Image();img.onload=function(){
+        origImg=img;origW=img.naturalWidth;origH=img.naturalHeight;imgR=origW/origH;
+        document.getElementById('appImagePreview').innerHTML='<img src="'+img.src+'" class="uimg" alt="">';
+        document.getElementById('appImagePreview').className='';
+        document.getElementById('appImagePlaceholder').className='hidden';
+        document.getElementById('removeImgBtn').className='rimg';
+        showSizeCtrl();
+    };img.src=URL.createObjectURL(f);
 }
 
 function removeAppImage(){
-tempImageData=null;origImg=null;
-document.getElementById('appImageInput').value='';
-document.getElementById('appImagePreview').innerHTML='';
-document.getElementById('appImagePreview').className='hidden';
-document.getElementById('appImagePlaceholder').className='';
-document.getElementById('removeImgBtn').className='rimg hidden';
-document.getElementById('imgSizeControls').className='sc hidden';
+    tempImgUrl=null;origImg=null;
+    document.getElementById('appImageInput').value='';
+    document.getElementById('appImagePreview').innerHTML='';
+    document.getElementById('appImagePreview').className='hidden';
+    document.getElementById('appImagePlaceholder').className='';
+    document.getElementById('removeImgBtn').className='rimg hidden';
+    document.getElementById('imgSizeControls').className='sc hidden';
 }
 
 function showSizeCtrl(){
-if(!origImg)return;
-document.getElementById('imgSizeControls').className='sc';
-document.getElementById('imgWidth').value=origW;
-document.getElementById('imgHeight').value=origH;
-document.getElementById('imgOrigSize').textContent='Tamaño original: '+origW+' x '+origH+' px';
+    if(!origImg)return;
+    document.getElementById('imgSizeControls').className='sc';
+    document.getElementById('imgWidth').value=origW;
+    document.getElementById('imgHeight').value=origH;
+    document.getElementById('imgOrigSize').textContent='Original: '+origW+' x '+origH+' px';
 }
-function onWidthChange(){if(!document.getElementById('imgLockRatio').checked)return;var w=parseInt(document.getElementById('imgWidth').value)||0;document.getElementById('imgHeight').value=Math.round(w/imgR)}
-function onHeightChange(){if(!document.getElementById('imgLockRatio').checked)return;var h=parseInt(document.getElementById('imgHeight').value)||0;document.getElementById('imgWidth').value=Math.round(h*imgR)}
-function applyImageSize(){
-if(!origImg){alert('No hay imagen');return}
-var nw=parseInt(document.getElementById('imgWidth').value)||origW;
-var nh=parseInt(document.getElementById('imgHeight').value)||origH;
-nw=Math.max(50,Math.min(2000,nw));nh=Math.max(50,Math.min(2000,nh));
-var c=document.createElement('canvas');c.width=nw;c.height=nh;
-c.getContext('2d').drawImage(origImg,0,0,nw,nh);
-tempImageData=c.toDataURL('image/jpeg',0.85);
-document.getElementById('appImagePreview').innerHTML='<img src="'+tempImageData+'" class="uimg" alt="">';
-document.getElementById('imgWidth').value=nw;document.getElementById('imgHeight').value=nh;
-showToast('Redimensionada','Imagen ajustada a '+nw+'x'+nh+' px');
+function onWidthChange(){if(!document.getElementById('imgLockRatio').checked)return;document.getElementById('imgHeight').value=Math.round((parseInt(document.getElementById('imgWidth').value)||0)/imgR)}
+function onHeightChange(){if(!document.getElementById('imgLockRatio').checked)return;document.getElementById('imgWidth').value=Math.round((parseInt(document.getElementById('imgHeight').value)||0)*imgR)}
+
+async function applyImageSize(){
+    if(!origImg){alert('No hay imagen');return}
+    var nw=Math.max(50,Math.min(2000,parseInt(document.getElementById('imgWidth').value)||origW));
+    var nh=Math.max(50,Math.min(2000,parseInt(document.getElementById('imgHeight').value)||origH));
+    var c=document.createElement('canvas');c.width=nw;c.height=nh;
+    c.getContext('2d').drawImage(origImg,0,0,nw,nh);
+    document.getElementById('appImagePreview').innerHTML='<img src="'+c.toDataURL('image/jpeg',0.85)+'" class="uimg" alt="">';
+    document.getElementById('imgWidth').value=nw;document.getElementById('imgHeight').value=nh;
+    /* Guardar canvas para subir al guardar */
+    origImg=c;origW=nw;origH=nh;
+    showToast('Redimensionada',nw+'x'+nh+' px — se subirá al guardar');
 }
 
 /* GUARDAR APP */
-document.getElementById('appForm').addEventListener('submit',function(e){
-e.preventDefault();var d=getData(),eid=document.getElementById('appEditId').value;
-var obj={name:document.getElementById('appName').value.trim(),platform:document.getElementById('appPlatform').value,desc:document.getElementById('appDesc').value.trim(),image:tempImageData||null};
-if(eid!==''){d.apps[parseInt(eid)]=obj;showToast('Actualizada','"'+obj.name+'" actualizada')}else{d.apps.push(obj);showToast('Añadida','"'+obj.name+'" añadida')}
-saveData(d);closeAppForm();renderAdminApps();
+document.getElementById('appForm').addEventListener('submit',async function(e){
+    e.preventDefault();
+    if(savingApp)return;
+    savingApp=true;
+    var btn=document.getElementById('appFormSubmit');btn.disabled=true;btn.textContent='Guardando...';
+    try{
+        var d=await getData(),eid=document.getElementById('appEditId').value;
+        var obj={name:document.getElementById('appName').value.trim(),platform:document.getElementById('appPlatform').value,desc:document.getElementById('appDesc').value.trim(),image:null};
+
+        /* Subir imagen si hay */
+        var inputFile=document.getElementById('appImageInput');
+        if(inputFile.files[0]){
+            try{obj.image=await subirImagen(inputFile.files[0])}catch(er){alert('Error al subir imagen: '+er.message);savingApp=false;btn.disabled=false;btn.textContent='Guardar App';return}
+        }else if(origImg instanceof HTMLCanvasElement){
+            try{obj.image=await subirCanvas(origImg)}catch(er){alert('Error al subir imagen: '+er.message);savingApp=false;btn.disabled=false;btn.textContent='Guardar App';return}
+        }else{
+            obj.image=tempImgUrl||null;
+        }
+
+        /* Si edita y cambió imagen, borrar la vieja */
+        if(eid!==''){
+            var oldImg=d.apps[parseInt(eid)].image;
+            if(oldImg&&oldImg!==obj.image)await borrarImagen(oldImg);
+            d.apps[parseInt(eid)]=obj;
+            showToast('Actualizada','"'+obj.name+'" actualizada');
+        }else{
+            d.apps.push(obj);
+            showToast('Añadida','"'+obj.name+'" añadida');
+        }
+        await saveData(d);closeAppForm();renderAdminApps(d);
+    }catch(err){alert('Error: '+err.message)}
+    savingApp=false;btn.disabled=false;btn.textContent='Guardar App';
 });
 
-/* ELIMINAR APP */
+/* ELIMINAR */
 var delIdx=null;
-function confirmDelete(i){var d=getData();delIdx=i;document.getElementById('deleteAppName').textContent='"'+d.apps[i].name+'" será eliminada permanentemente.';document.getElementById('deleteModal').className='mo';document.getElementById('confirmDeleteBtn').onclick=function(){var d=getData(),n=d.apps[delIdx].name;d.apps.splice(delIdx,1);saveData(d);hideDeleteModal();renderAdminApps();showToast('Eliminada','"'+n+'" eliminada');delIdx=null}}
+async function confirmDelete(i){
+    var d=await getData();delIdx=i;
+    document.getElementById('deleteAppName').textContent='"'+d.apps[i].name+'" será eliminada.';
+    document.getElementById('deleteModal').className='mo';
+    document.getElementById('confirmDeleteBtn').onclick=async function(){
+        var d=await getData(),n=d.apps[delIdx].name,img=d.apps[delIdx].image;
+        d.apps.splice(delIdx,1);await saveData(d);
+        if(img)await borrarImagen(img);
+        hideDeleteModal();renderAdminApps(d);showToast('Eliminada','"'+n+'" eliminada');delIdx=null;
+    };
+}
 function hideDeleteModal(){document.getElementById('deleteModal').className='mo hidden'}
 
 /* TOAST */
 function showToast(t,m){document.getElementById('toastTitle').textContent=t;document.getElementById('toastMsg').textContent=m;var el=document.getElementById('toast');el.classList.add('show');setTimeout(function(){el.classList.remove('show')},3500)}
 
 /* CONTACTO */
-document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();showToast('Enviado','Tu mensaje se ha enviado correctamente');this.reset()});
+document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();showToast('Enviado','Tu mensaje se ha enviado');this.reset()});
 
-/* HASH ROUTING */
+/* HASH */
 function checkHash(){if(window.location.hash==='#admin'){showAdminLogin();history.replaceState(null,'',window.location.pathname)}}
 window.addEventListener('hashchange',checkHash);
 
 /* INIT */
-renderPage();filterApps('all');checkHash();
+(async function(){
+    try{
+        var data=await getData();
+        renderPage(data);filterApps('all');checkHash();
+    }catch(e){
+        document.getElementById('heroSubtitle').textContent='Desarrollo de Software con I.A';
+        document.getElementById('heroTitle').textContent='Aplicaciones para Windows y Android';
+        document.getElementById('heroDesc').textContent='Creamos soluciones de software inteligentes y a medida.';
+    }
+    document.getElementById('loadingScreen').style.display='none';
+    document.getElementById('mainPage').style.display='block';
+})();
 </script>
 </body>
 </html>
